@@ -1,0 +1,31 @@
+# 二进制文件
+my_cip
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 输出目录
+/bin/
+/dist/
+
+# Go 工作区文件
+go.work
+
+# 依赖目录
+/vendor/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
